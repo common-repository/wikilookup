@@ -1,0 +1,48 @@
+[data-wl-popup] {
+	border-bottom: 1px dashed #666;
+	cursor: pointer;
+}
+
+/* .wikilookup-popover-container .popover {
+	max-width: 650px;
+} */
+.wikilookup-popover-container .popover-body {
+	padding: 0;
+}
+
+.wl-card {
+	width: 100%;
+	font-size: 0.7em;
+	min-height: 200px;
+	border: 1px solid #666;
+}
+
+.wl-card-wrapper [data-wl-card] {
+	display: none;
+}
+
+.wl-mobile-panel {
+	display: block;
+	position: fixed;
+	border-top: 1px solid #666;
+	font-size: 0.8em;
+	max-height: 80%;
+	bottom: 0;
+	-webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+	box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+}
+
+.wl-mobile-panel .wl-pageInfoWidget-view-content {
+	max-height: 120px;
+}
+
+.wl-mobile-panel .wl-pageInfoWidget-view-thumb {
+	width: 100px !important;
+}
+
+.wl-mobile-panel .wl-pageInfoWidget-view-logo,
+.wl-mobile-panel .wl-pageInfoWidget .wl-pageInfoWidget-view-link,
+.wl-mobile-panel .wl-pageInfoWidget .wl-pageInfoWidget-view-articleHistory {
+	margin-bottom: 0;
+}

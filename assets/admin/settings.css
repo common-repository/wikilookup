@@ -1,0 +1,84 @@
+.wl-sources th,
+.wl-sources tbody td {
+	text-align: center;
+}
+
+.wl-settings h3 {
+	border-bottom: 1px solid #ccc;
+	padding-bottom: 0.5em;
+}
+
+.wl-logo-preview {
+	max-height: 50px;
+}
+
+.wl-display-preview-card .wl-pageInfoWidget {
+	border: 1px solid #666;
+}
+
+.wl-logo-wikipedia-statement.description {
+	display: none;
+}
+
+.wl-sources-head-logo {
+	min-width: 225px;
+}
+
+.wl-sources-inp-lang,
+.wl-sources-head-lang,
+.wl-sources-head-restbase,
+th.wl-sources-head-actions {
+	width: 3em;
+}
+
+.wl-sources-inp-name {
+	width: 4em;
+}
+
+.wl-sources-new {
+	display: none;
+}
+
+.wl-inp-error {
+	border: 2px solid red !important;
+}
+
+/* Add new source button */
+.wl-sources a.button.wl-sources-add {
+	padding-left: 0;
+	vertical-align: middle;
+	margin-left: 1em;
+}
+.wl-sources-add:before {
+	content: "\f132";
+	-webkit-font-smoothing: antialiased;
+	font: normal 30px/1 'dashicons';
+	display: inline-block;
+	position: relative;
+	vertical-align: middle;
+	width: 30px;
+	height: 30px;
+}
+
+/* Delete button */
+.wl-sources a.button.wl-sources-inp-delete {
+	/* background-color: #e15d5d; */
+	background-color: transparent;
+	color: #e15d5d;
+	padding-left: 0;
+	padding-right: 0;
+	box-shadow: none;
+	border: 0;
+}
+.wl-sources-inp-delete:before {
+	content: "\f182";
+	-webkit-font-smoothing: antialiased;
+	font: normal 30px/1 'dashicons';
+	display: inline-block;
+	color: #e15d5d;
+	height: 30px;
+	position: relative;
+	top: -2px;
+	vertical-align: middle;
+	width: 30px;
+}
